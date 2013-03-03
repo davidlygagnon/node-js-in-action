@@ -32,6 +32,7 @@ app.configure('development', function(){
 app.get('/', photos.list);
 app.get('/upload', photos.form);
 app.post('/upload', photos.submit(app.get('photos')));
+app.get('/photo/:id/download', photos.download(app.get('photos')));
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
