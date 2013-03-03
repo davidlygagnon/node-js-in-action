@@ -1,3 +1,10 @@
+var Photo = require('../models/Photo');
+var path = require('path');
+var fs = require('fs');
+var join = path.join;
+
+// not needed for final tutorial
+/*
 var photos = [];
 
 photos.push({
@@ -9,11 +16,15 @@ photos.push({
   name : 'Ryan Speaking',
   path : 'http://nodejs.org/images/ryan-speaker.jpg'
 });
+*/
 
-exports.list = function (req, res) {
-  res.render('photos', {
-    title : 'Photos',
-    photos : photos
+exports.list = function (req, res, next) {
+  Photo.find({}, function(err, photos) {
+    if (err) return next(err);
+      res.render('photos', {
+        title: 'Photos',
+        photos: photos
+      });
   });
 };
 
@@ -23,10 +34,6 @@ exports.form = function (req, res) {
   });
 };
 
-var Photo = require('../models/Photo');
-var path = require('path');
-var fs = require('fs');
-var join = path.join;
 
 exports.submit = function (dir) {
   return function (req, res, next) {
