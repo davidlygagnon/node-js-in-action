@@ -1,0 +1,597 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'node-inspector' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'node-inspector', null ]
+7 silly cache add name=undefined spec="node-inspector" args=["node-inspector",null]
+8 verbose parsed url { pathname: 'node-inspector',
+8 verbose parsed url   path: 'node-inspector',
+8 verbose parsed url   href: 'node-inspector' }
+9 silly lockFile 4198ef9e-node-inspector node-inspector
+10 verbose lock node-inspector /Users/david/.npm/4198ef9e-node-inspector.lock
+11 silly lockFile 4198ef9e-node-inspector node-inspector
+12 verbose addNamed [ 'node-inspector', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile e68b88da-node-inspector node-inspector@
+15 verbose lock node-inspector@ /Users/david/.npm/e68b88da-node-inspector.lock
+16 silly addNameRange { name: 'node-inspector', range: '', hasData: false }
+17 verbose url raw node-inspector
+18 verbose url resolving [ 'https://registry.npmjs.org/', './node-inspector' ]
+19 verbose url resolved https://registry.npmjs.org/node-inspector
+20 info trying registry request attempt 1 at 00:15:18
+21 http GET https://registry.npmjs.org/node-inspector
+22 http 200 https://registry.npmjs.org/node-inspector
+23 silly registry.get cb [ 200,
+23 silly registry.get   { vary: 'Accept',
+23 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+23 silly registry.get     etag: '"647C5XYY4UQ4S3OPWLYYVCY85"',
+23 silly registry.get     date: 'Sun, 03 Mar 2013 08:14:54 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '29652' } ]
+24 silly addNameRange number 2 { name: 'node-inspector', range: '', hasData: true }
+25 silly addNameRange versions [ 'node-inspector',
+25 silly addNameRange   [ '0.0.1',
+25 silly addNameRange     '0.0.2',
+25 silly addNameRange     '0.0.3',
+25 silly addNameRange     '0.0.4',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.1.4',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.1.7',
+25 silly addNameRange     '0.1.8',
+25 silly addNameRange     '0.1.9',
+25 silly addNameRange     '0.1.10',
+25 silly addNameRange     '0.2.0beta1',
+25 silly addNameRange     '0.2.0beta2',
+25 silly addNameRange     '0.2.0beta3' ] ]
+26 verbose addNamed [ 'node-inspector', '0.2.0beta3' ]
+27 verbose addNamed [ '0.2.0beta3', '0.2.0beta3' ]
+28 silly lockFile 4109c2e9-node-inspector-0-2-0beta3 node-inspector@0.2.0beta3
+29 verbose lock node-inspector@0.2.0beta3 /Users/david/.npm/4109c2e9-node-inspector-0-2-0beta3.lock
+30 silly lockFile 7b628b3a-or-node-inspector-0-2-0beta3-tgz https://registry.npmjs.org/node-inspector/-/node-inspector-0.2.0beta3.tgz
+31 verbose lock https://registry.npmjs.org/node-inspector/-/node-inspector-0.2.0beta3.tgz /Users/david/.npm/7b628b3a-or-node-inspector-0-2-0beta3-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-inspector/-/node-inspector-0.2.0beta3.tgz',
+32 verbose addRemoteTarball   '2adb552da7757ff3d4ec549f5570799355952d20' ]
+33 info retry fetch attempt 1 at 00:15:19
+34 verbose fetch to= /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/tmp.tgz
+35 http GET https://registry.npmjs.org/node-inspector/-/node-inspector-0.2.0beta3.tgz
+36 http 200 https://registry.npmjs.org/node-inspector/-/node-inspector-0.2.0beta3.tgz
+37 silly shasum updated bytes 40960
+38 silly shasum updated bytes 40960
+39 silly shasum updated bytes 40960
+40 silly shasum updated bytes 40960
+41 silly shasum updated bytes 40960
+42 silly shasum updated bytes 40960
+43 silly shasum updated bytes 40960
+44 silly shasum updated bytes 40960
+45 silly shasum updated bytes 40960
+46 silly shasum updated bytes 40960
+47 silly shasum updated bytes 40960
+48 silly shasum updated bytes 40960
+49 silly shasum updated bytes 40960
+50 silly shasum updated bytes 40960
+51 silly shasum updated bytes 40960
+52 silly shasum updated bytes 40960
+53 silly shasum updated bytes 26715
+54 info shasum 2adb552da7757ff3d4ec549f5570799355952d20
+54 info shasum /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/tmp.tgz
+55 verbose tar unpack /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/tmp.tgz
+56 silly lockFile ac45d65c-19224-0-8336510725785047-package /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/package
+57 verbose lock /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/package /Users/david/.npm/ac45d65c-19224-0-8336510725785047-package.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm extractEntry bin/inspector.js
+63 silly gunzTarPerm extractEntry ChangeLog
+64 silly gunzTarPerm extractEntry config.json
+65 silly gunzTarPerm extractEntry front-end/devtools.js
+66 silly gunzTarPerm extractEntry front-end/node/InspectorBackendStub.js
+67 silly gunzTarPerm extractEntry front-end/node/InspectorFrontendHostStub.js
+68 silly gunzTarPerm extractEntry front-end/node/Overrides.js
+69 silly gunzTarPerm extractEntry front-end/helpScreen.css
+70 silly gunzTarPerm extractEntry front-end/Images/resourcesSizeGraphIcon.png
+71 silly gunzTarPerm extractEntry front-end/Images/applicationCache.png
+72 silly gunzTarPerm extractEntry front-end/Images/back.png
+73 silly gunzTarPerm extractEntry front-end/Images/breakpointBorder.png
+74 silly gunzTarPerm extractEntry front-end/Images/breakpointConditionalBorder.png
+75 silly gunzTarPerm extractEntry front-end/Images/breakpointConditionalCounterBorder.png
+76 silly gunzTarPerm extractEntry front-end/Images/breakpointCounterBorder.png
+77 silly gunzTarPerm extractEntry front-end/Images/breakpointsActivateButtonGlyph.png
+78 silly gunzTarPerm extractEntry front-end/Images/breakpointsDeactivateButtonGlyph.png
+79 silly gunzTarPerm extractEntry front-end/Images/checker.png
+80 silly gunzTarPerm extractEntry front-end/Images/clearConsoleButtonGlyph.png
+81 silly gunzTarPerm extractEntry front-end/Images/closeButtons.png
+82 silly gunzTarPerm extractEntry front-end/Images/consoleButtonGlyph.png
+83 silly gunzTarPerm extractEntry front-end/Images/consoleIcon.png
+84 silly gunzTarPerm extractEntry front-end/Images/cookie.png
+85 silly gunzTarPerm extractEntry front-end/Images/database.png
+86 silly gunzTarPerm extractEntry front-end/Images/databaseTable.png
+87 silly gunzTarPerm extractEntry front-end/Images/debuggerContinue.png
+88 silly gunzTarPerm extractEntry front-end/Images/debuggerPause.png
+89 silly gunzTarPerm extractEntry front-end/Images/debuggerStepInto.png
+90 silly gunzTarPerm extractEntry front-end/Images/debuggerStepOut.png
+91 silly gunzTarPerm extractEntry front-end/Images/debuggerStepOver.png
+92 silly gunzTarPerm extractEntry front-end/Images/deleteIcon.png
+93 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallDown.png
+94 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallDownBlack.png
+95 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallDownWhite.png
+96 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRight.png
+97 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightBlack.png
+98 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightDown.png
+99 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightDownBlack.png
+100 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightDownWhite.png
+101 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightWhite.png
+102 silly gunzTarPerm extractEntry front-end/Images/dockButtonGlyph.png
+103 silly gunzTarPerm extractEntry front-end/Images/elementsIcon.png
+104 silly gunzTarPerm extractEntry front-end/Images/enableOutlineButtonGlyph.png
+105 silly gunzTarPerm extractEntry front-end/Images/enableSolidButtonGlyph.png
+106 silly gunzTarPerm extractEntry front-end/Images/errorIcon.png
+107 silly gunzTarPerm extractEntry front-end/Images/errorMediumIcon.png
+108 silly gunzTarPerm extractEntry front-end/Images/errorRedDot.png
+109 silly gunzTarPerm extractEntry front-end/Images/excludeButtonGlyph.png
+110 silly gunzTarPerm extractEntry front-end/Images/focusButtonGlyph.png
+111 silly gunzTarPerm extractEntry front-end/Images/forward.png
+112 silly gunzTarPerm extractEntry front-end/Images/frame.png
+113 silly gunzTarPerm extractEntry front-end/Images/gearButtonGlyph.png
+114 silly gunzTarPerm extractEntry front-end/Images/glossyHeader.png
+115 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderPressed.png
+116 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderSelected.png
+117 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderSelectedPressed.png
+118 silly gunzTarPerm extractEntry front-end/Images/goArrow.png
+119 silly gunzTarPerm extractEntry front-end/Images/graphLabelCalloutLeft.png
+120 silly gunzTarPerm extractEntry front-end/Images/graphLabelCalloutRight.png
+121 silly gunzTarPerm extractEntry front-end/Images/largerResourcesButtonGlyph.png
+122 silly gunzTarPerm extractEntry front-end/Images/localStorage.png
+123 silly gunzTarPerm extractEntry front-end/Images/navigatorShowHideButton.png
+124 silly gunzTarPerm extractEntry front-end/Images/networkIcon.png
+125 silly gunzTarPerm extractEntry front-end/Images/nodeSearchButtonGlyph.png
+126 silly gunzTarPerm extractEntry front-end/Images/paneAddButtons.png
+127 silly gunzTarPerm extractEntry front-end/Images/paneBottomGrow.png
+128 silly gunzTarPerm extractEntry front-end/Images/paneBottomGrowActive.png
+129 silly gunzTarPerm extractEntry front-end/Images/paneElementStateButtons.png
+130 silly gunzTarPerm extractEntry front-end/Images/paneFilterButtons.png
+131 silly gunzTarPerm extractEntry front-end/Images/paneGrowHandleLine.png
+132 silly gunzTarPerm extractEntry front-end/Images/paneRefreshButtons.png
+133 silly gunzTarPerm extractEntry front-end/Images/paneSettingsButtons.png
+134 silly gunzTarPerm extractEntry front-end/Images/pauseOnExceptionButtonGlyph.png
+135 silly gunzTarPerm extractEntry front-end/Images/percentButtonGlyph.png
+136 silly gunzTarPerm extractEntry front-end/Images/popoverArrows.png
+137 silly gunzTarPerm extractEntry front-end/Images/popoverBackground.png
+138 silly gunzTarPerm extractEntry front-end/Images/profileGroupIcon.png
+139 silly gunzTarPerm extractEntry front-end/Images/profileIcon.png
+140 silly gunzTarPerm extractEntry front-end/Images/profilesIcon.png
+141 silly gunzTarPerm extractEntry front-end/Images/profileSmallIcon.png
+142 silly gunzTarPerm extractEntry front-end/Images/profilesSilhouette.png
+143 silly gunzTarPerm extractEntry front-end/Images/programCounterBorder.png
+144 silly gunzTarPerm extractEntry front-end/Images/radioDot.png
+145 silly gunzTarPerm extractEntry front-end/Images/recordButtonGlyph.png
+146 silly gunzTarPerm extractEntry front-end/Images/recordToggledButtonGlyph.png
+147 silly gunzTarPerm extractEntry front-end/Images/reloadButtonGlyph.png
+148 silly gunzTarPerm extractEntry front-end/Images/resourceCSSIcon.png
+149 silly gunzTarPerm extractEntry front-end/Images/resourceDocumentIcon.png
+150 silly gunzTarPerm extractEntry front-end/Images/resourceDocumentIconSmall.png
+151 silly gunzTarPerm extractEntry front-end/Images/resourceJSIcon.png
+152 silly gunzTarPerm extractEntry front-end/Images/resourcePlainIcon.png
+153 silly gunzTarPerm extractEntry front-end/Images/resourcePlainIconSmall.png
+154 silly gunzTarPerm extractEntry front-end/Images/resourcesIcon.png
+155 silly gunzTarPerm extractEntry front-end/Images/auditsIcon.png
+156 silly gunzTarPerm extractEntry front-end/Images/resourcesTimeGraphIcon.png
+157 silly gunzTarPerm extractEntry front-end/Images/scriptsIcon.png
+158 silly gunzTarPerm extractEntry front-end/Images/scriptsSilhouette.png
+159 silly gunzTarPerm extractEntry front-end/Images/searchSmallBlue.png
+160 silly gunzTarPerm extractEntry front-end/Images/searchSmallBrightBlue.png
+161 silly gunzTarPerm extractEntry front-end/Images/searchSmallGray.png
+162 silly gunzTarPerm extractEntry front-end/Images/searchSmallWhite.png
+163 silly gunzTarPerm extractEntry front-end/Images/segment.png
+164 silly gunzTarPerm extractEntry front-end/Images/segmentEnd.png
+165 silly gunzTarPerm extractEntry front-end/Images/segmentHover.png
+166 silly gunzTarPerm extractEntry front-end/Images/segmentHoverEnd.png
+167 silly gunzTarPerm extractEntry front-end/Images/segmentSelected.png
+168 silly gunzTarPerm extractEntry front-end/Images/segmentSelectedEnd.png
+169 silly gunzTarPerm extractEntry front-end/Images/sessionStorage.png
+170 silly gunzTarPerm extractEntry front-end/Images/spinner.gif
+171 silly gunzTarPerm extractEntry front-end/Images/spinnerActive.gif
+172 silly gunzTarPerm extractEntry front-end/Images/spinnerActiveSelected.gif
+173 silly gunzTarPerm extractEntry front-end/Images/spinnerInactive.gif
+174 silly gunzTarPerm extractEntry front-end/Images/spinnerInactiveSelected.gif
+175 silly gunzTarPerm extractEntry front-end/Images/splitviewDimple.png
+176 silly gunzTarPerm extractEntry front-end/Images/splitviewDividerBackground.png
+177 silly gunzTarPerm extractEntry front-end/Images/statusbarBackground.png
+178 silly gunzTarPerm extractEntry front-end/Images/statusbarBackgroundChromium.png
+179 silly gunzTarPerm extractEntry front-end/Images/statusbarBottomBackground.png
+180 silly gunzTarPerm extractEntry front-end/Images/statusbarBottomBackgroundChromium.png
+181 silly gunzTarPerm extractEntry front-end/Images/statusbarButtonGlyphs.png
+182 silly gunzTarPerm extractEntry front-end/Images/statusbarButtons.png
+183 silly gunzTarPerm extractEntry front-end/Images/statusbarButtonsChromium.png
+184 silly gunzTarPerm extractEntry front-end/Images/statusbarMenuButton.png
+185 silly gunzTarPerm extractEntry front-end/Images/statusbarMenuButtonChromium.png
+186 silly gunzTarPerm extractEntry front-end/Images/statusbarMenuButtonSelected.png
+187 silly gunzTarPerm extractEntry front-end/Images/statusbarMenuButtonSelectedChromium.png
+188 silly gunzTarPerm extractEntry front-end/Images/statusbarResizerHorizontal.png
+189 silly gunzTarPerm extractEntry front-end/Images/statusbarResizerVertical.png
+190 silly gunzTarPerm extractEntry front-end/Images/successGreenDot.png
+191 silly gunzTarPerm extractEntry front-end/Images/thumbActiveHoriz.png
+192 silly gunzTarPerm extractEntry front-end/Images/thumbActiveVert.png
+193 silly gunzTarPerm extractEntry front-end/Images/thumbHoriz.png
+194 silly gunzTarPerm extractEntry front-end/Images/thumbHoverHoriz.png
+195 silly gunzTarPerm extractEntry front-end/Images/thumbHoverVert.png
+196 silly gunzTarPerm extractEntry front-end/Images/thumbVert.png
+197 silly gunzTarPerm extractEntry front-end/Images/timelineBarBlue.png
+198 silly gunzTarPerm extractEntry front-end/Images/timelineBarGray.png
+199 silly gunzTarPerm extractEntry front-end/Images/timelineBarGreen.png
+200 silly gunzTarPerm extractEntry front-end/Images/timelineBarOrange.png
+201 silly gunzTarPerm extractEntry front-end/Images/timelineBarPurple.png
+202 silly gunzTarPerm extractEntry front-end/Images/timelineBarRed.png
+203 silly gunzTarPerm extractEntry front-end/Images/timelineBarYellow.png
+204 silly gunzTarPerm extractEntry front-end/Images/timelineCheckmarks.png
+205 silly gunzTarPerm extractEntry front-end/Images/timelineDots.png
+206 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillBlue.png
+207 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillGray.png
+208 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillGreen.png
+209 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillOrange.png
+210 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillPurple.png
+211 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillRed.png
+212 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillYellow.png
+213 silly gunzTarPerm extractEntry front-end/Images/timelineIcon.png
+214 silly gunzTarPerm extractEntry front-end/Images/timelinePillBlue.png
+215 silly gunzTarPerm extractEntry front-end/Images/timelinePillGray.png
+216 silly gunzTarPerm extractEntry front-end/Images/timelinePillGreen.png
+217 silly gunzTarPerm extractEntry front-end/Images/timelinePillOrange.png
+218 silly gunzTarPerm extractEntry front-end/Images/timelinePillPurple.png
+219 silly gunzTarPerm extractEntry front-end/Images/timelinePillRed.png
+220 silly gunzTarPerm extractEntry front-end/Images/timelinePillYellow.png
+221 silly gunzTarPerm extractEntry front-end/Images/toolbarIcons.png
+222 silly gunzTarPerm extractEntry front-end/Images/toolbarIconsSmall.png
+223 silly gunzTarPerm extractEntry front-end/Images/toolbarItemSelected.png
+224 silly gunzTarPerm extractEntry front-end/Images/trackHoriz.png
+225 silly gunzTarPerm extractEntry front-end/Images/trackVert.png
+226 silly gunzTarPerm extractEntry front-end/Images/treeDownTriangleBlack.png
+227 silly gunzTarPerm extractEntry front-end/Images/treeDownTriangleWhite.png
+228 silly gunzTarPerm extractEntry front-end/Images/treeRightTriangleBlack.png
+229 silly gunzTarPerm extractEntry front-end/Images/treeRightTriangleWhite.png
+230 silly gunzTarPerm extractEntry front-end/Images/treeUpTriangleBlack.png
+231 silly gunzTarPerm extractEntry front-end/Images/treeUpTriangleWhite.png
+232 silly gunzTarPerm extractEntry front-end/Images/undockButtonGlyph.png
+233 silly gunzTarPerm extractEntry front-end/Images/userInputIcon.png
+234 silly gunzTarPerm extractEntry front-end/Images/userInputPreviousIcon.png
+235 silly gunzTarPerm extractEntry front-end/Images/userInputResultIcon.png
+236 silly gunzTarPerm extractEntry front-end/Images/warningIcon.png
+237 silly gunzTarPerm extractEntry front-end/Images/warningMediumIcon.png
+238 silly gunzTarPerm extractEntry front-end/Images/warningOrangeDot.png
+239 silly gunzTarPerm extractEntry front-end/Images/warningsErrors.png
+240 silly gunzTarPerm extractEntry front-end/index.html
+241 silly gunzTarPerm extractEntry front-end/navigatorView.css
+242 silly gunzTarPerm extractEntry front-end/devtools.css
+243 silly gunzTarPerm extractEntry front-end/scriptsPanel.css
+244 silly gunzTarPerm extractEntry front-end/splitView.css
+245 silly gunzTarPerm extractEntry front-end/tabbedPane.css
+246 silly gunzTarPerm extractEntry front-end/textPrompt.css
+247 silly gunzTarPerm extractEntry front-end/textViewer.css
+248 silly gunzTarPerm extractEntry lib/callback.js
+249 silly gunzTarPerm extractEntry lib/client.js
+250 silly gunzTarPerm extractEntry lib/debug-server.js
+251 silly gunzTarPerm extractEntry lib/protocol.js
+252 silly gunzTarPerm extractEntry lib/session2.js
+253 silly gunzTarPerm extractEntry lib/v2w.js
+254 silly gunzTarPerm extractEntry lib/front-end/browser.js
+255 silly gunzTarPerm extractEntry lib/front-end/callframe.js
+256 silly gunzTarPerm extractEntry lib/front-end/console.js
+257 silly gunzTarPerm extractEntry lib/front-end/debugger.js
+258 silly gunzTarPerm extractEntry lib/front-end/location.js
+259 silly gunzTarPerm extractEntry lib/front-end/remote-object.js
+260 silly gunzTarPerm extractEntry lib/front-end/runtime.js
+261 silly gunzTarPerm extractEntry lib/front-end/scope.js
+262 silly gunzTarPerm extractEntry readme.md
+263 silly gunzTarPerm extractEntry test/hello.js
+264 verbose read json /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/package/package.json
+265 silly lockFile ac45d65c-19224-0-8336510725785047-package /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/package
+266 verbose from cache /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/package/package.json
+267 verbose tar pack [ '/Users/david/.npm/node-inspector/0.2.0beta3/package.tgz',
+267 verbose tar pack   '/var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/package' ]
+268 verbose tarball /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz
+269 verbose folder /var/folders/9v/whsvcx5943xcsdqss_38t4f00000gn/T/npm-8993/1362298519224-0.8336510725785047/package
+270 silly lockFile dda805b0-inspector-0-2-0beta3-package-tgz /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz
+271 verbose lock /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz /Users/david/.npm/dda805b0-inspector-0-2-0beta3-package-tgz.lock
+272 silly lockFile dda805b0-inspector-0-2-0beta3-package-tgz /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz
+273 silly lockFile f168fa8a-ode-inspector-0-2-0beta3-package /Users/david/.npm/node-inspector/0.2.0beta3/package
+274 verbose lock /Users/david/.npm/node-inspector/0.2.0beta3/package /Users/david/.npm/f168fa8a-ode-inspector-0-2-0beta3-package.lock
+275 silly lockFile f168fa8a-ode-inspector-0-2-0beta3-package /Users/david/.npm/node-inspector/0.2.0beta3/package
+276 verbose tar unpack /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz
+277 silly lockFile f168fa8a-ode-inspector-0-2-0beta3-package /Users/david/.npm/node-inspector/0.2.0beta3/package
+278 verbose lock /Users/david/.npm/node-inspector/0.2.0beta3/package /Users/david/.npm/f168fa8a-ode-inspector-0-2-0beta3-package.lock
+279 silly gunzTarPerm modes [ '755', '644' ]
+280 silly gunzTarPerm extractEntry package.json
+281 silly gunzTarPerm extractEntry .npmignore
+282 silly gunzTarPerm extractEntry LICENSE
+283 silly gunzTarPerm extractEntry bin/inspector.js
+284 silly gunzTarPerm extractEntry ChangeLog
+285 silly gunzTarPerm extractEntry config.json
+286 silly gunzTarPerm extractEntry front-end/devtools.js
+287 silly gunzTarPerm extractEntry front-end/node/InspectorBackendStub.js
+288 silly gunzTarPerm extractEntry front-end/node/InspectorFrontendHostStub.js
+289 silly gunzTarPerm extractEntry front-end/node/Overrides.js
+290 silly gunzTarPerm extractEntry front-end/helpScreen.css
+291 silly gunzTarPerm extractEntry front-end/Images/resourcesSizeGraphIcon.png
+292 silly gunzTarPerm extractEntry front-end/Images/applicationCache.png
+293 silly gunzTarPerm extractEntry front-end/Images/back.png
+294 silly gunzTarPerm extractEntry front-end/Images/breakpointBorder.png
+295 silly gunzTarPerm extractEntry front-end/Images/breakpointConditionalBorder.png
+296 silly gunzTarPerm extractEntry front-end/Images/breakpointConditionalCounterBorder.png
+297 silly gunzTarPerm extractEntry front-end/Images/breakpointCounterBorder.png
+298 silly gunzTarPerm extractEntry front-end/Images/breakpointsActivateButtonGlyph.png
+299 silly gunzTarPerm extractEntry front-end/Images/breakpointsDeactivateButtonGlyph.png
+300 silly gunzTarPerm extractEntry front-end/Images/checker.png
+301 silly gunzTarPerm extractEntry front-end/Images/clearConsoleButtonGlyph.png
+302 silly gunzTarPerm extractEntry front-end/Images/closeButtons.png
+303 silly gunzTarPerm extractEntry front-end/Images/consoleButtonGlyph.png
+304 silly gunzTarPerm extractEntry front-end/Images/consoleIcon.png
+305 silly gunzTarPerm extractEntry front-end/Images/cookie.png
+306 silly gunzTarPerm extractEntry front-end/Images/database.png
+307 silly gunzTarPerm extractEntry front-end/Images/databaseTable.png
+308 silly gunzTarPerm extractEntry front-end/Images/debuggerContinue.png
+309 silly gunzTarPerm extractEntry front-end/Images/debuggerPause.png
+310 silly gunzTarPerm extractEntry front-end/Images/debuggerStepInto.png
+311 silly gunzTarPerm extractEntry front-end/Images/debuggerStepOut.png
+312 silly gunzTarPerm extractEntry front-end/Images/debuggerStepOver.png
+313 silly gunzTarPerm extractEntry front-end/Images/deleteIcon.png
+314 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallDown.png
+315 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallDownBlack.png
+316 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallDownWhite.png
+317 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRight.png
+318 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightBlack.png
+319 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightDown.png
+320 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightDownBlack.png
+321 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightDownWhite.png
+322 silly gunzTarPerm extractEntry front-end/Images/disclosureTriangleSmallRightWhite.png
+323 silly gunzTarPerm extractEntry front-end/Images/dockButtonGlyph.png
+324 silly gunzTarPerm extractEntry front-end/Images/elementsIcon.png
+325 silly gunzTarPerm extractEntry front-end/Images/enableOutlineButtonGlyph.png
+326 silly gunzTarPerm extractEntry front-end/Images/enableSolidButtonGlyph.png
+327 silly gunzTarPerm extractEntry front-end/Images/errorIcon.png
+328 silly gunzTarPerm extractEntry front-end/Images/errorMediumIcon.png
+329 silly gunzTarPerm extractEntry front-end/Images/errorRedDot.png
+330 silly gunzTarPerm extractEntry front-end/Images/excludeButtonGlyph.png
+331 silly gunzTarPerm extractEntry front-end/Images/focusButtonGlyph.png
+332 silly gunzTarPerm extractEntry front-end/Images/forward.png
+333 silly gunzTarPerm extractEntry front-end/Images/frame.png
+334 silly gunzTarPerm extractEntry front-end/Images/gearButtonGlyph.png
+335 silly gunzTarPerm extractEntry front-end/Images/glossyHeader.png
+336 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderPressed.png
+337 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderSelected.png
+338 silly gunzTarPerm extractEntry front-end/Images/glossyHeaderSelectedPressed.png
+339 silly gunzTarPerm extractEntry front-end/Images/goArrow.png
+340 silly gunzTarPerm extractEntry front-end/Images/graphLabelCalloutLeft.png
+341 silly gunzTarPerm extractEntry front-end/Images/graphLabelCalloutRight.png
+342 silly gunzTarPerm extractEntry front-end/Images/largerResourcesButtonGlyph.png
+343 silly gunzTarPerm extractEntry front-end/Images/localStorage.png
+344 silly gunzTarPerm extractEntry front-end/Images/navigatorShowHideButton.png
+345 silly gunzTarPerm extractEntry front-end/Images/networkIcon.png
+346 silly gunzTarPerm extractEntry front-end/Images/nodeSearchButtonGlyph.png
+347 silly gunzTarPerm extractEntry front-end/Images/paneAddButtons.png
+348 silly gunzTarPerm extractEntry front-end/Images/paneBottomGrow.png
+349 silly gunzTarPerm extractEntry front-end/Images/paneBottomGrowActive.png
+350 silly gunzTarPerm extractEntry front-end/Images/paneElementStateButtons.png
+351 silly gunzTarPerm extractEntry front-end/Images/paneFilterButtons.png
+352 silly gunzTarPerm extractEntry front-end/Images/paneGrowHandleLine.png
+353 silly gunzTarPerm extractEntry front-end/Images/paneRefreshButtons.png
+354 silly gunzTarPerm extractEntry front-end/Images/paneSettingsButtons.png
+355 silly gunzTarPerm extractEntry front-end/Images/pauseOnExceptionButtonGlyph.png
+356 silly gunzTarPerm extractEntry front-end/Images/percentButtonGlyph.png
+357 silly gunzTarPerm extractEntry front-end/Images/popoverArrows.png
+358 silly gunzTarPerm extractEntry front-end/Images/popoverBackground.png
+359 silly gunzTarPerm extractEntry front-end/Images/profileGroupIcon.png
+360 silly gunzTarPerm extractEntry front-end/Images/profileIcon.png
+361 silly gunzTarPerm extractEntry front-end/Images/profilesIcon.png
+362 silly gunzTarPerm extractEntry front-end/Images/profileSmallIcon.png
+363 silly gunzTarPerm extractEntry front-end/Images/profilesSilhouette.png
+364 silly gunzTarPerm extractEntry front-end/Images/programCounterBorder.png
+365 silly gunzTarPerm extractEntry front-end/Images/radioDot.png
+366 silly gunzTarPerm extractEntry front-end/Images/recordButtonGlyph.png
+367 silly gunzTarPerm extractEntry front-end/Images/recordToggledButtonGlyph.png
+368 silly gunzTarPerm extractEntry front-end/Images/reloadButtonGlyph.png
+369 silly gunzTarPerm extractEntry front-end/Images/resourceCSSIcon.png
+370 silly gunzTarPerm extractEntry front-end/Images/resourceDocumentIcon.png
+371 silly gunzTarPerm extractEntry front-end/Images/resourceDocumentIconSmall.png
+372 silly gunzTarPerm extractEntry front-end/Images/resourceJSIcon.png
+373 silly gunzTarPerm extractEntry front-end/Images/resourcePlainIcon.png
+374 silly gunzTarPerm extractEntry front-end/Images/resourcePlainIconSmall.png
+375 silly gunzTarPerm extractEntry front-end/Images/resourcesIcon.png
+376 silly gunzTarPerm extractEntry front-end/Images/auditsIcon.png
+377 silly gunzTarPerm extractEntry front-end/Images/resourcesTimeGraphIcon.png
+378 silly gunzTarPerm extractEntry front-end/Images/scriptsIcon.png
+379 silly gunzTarPerm extractEntry front-end/Images/scriptsSilhouette.png
+380 silly gunzTarPerm extractEntry front-end/Images/searchSmallBlue.png
+381 silly gunzTarPerm extractEntry front-end/Images/searchSmallBrightBlue.png
+382 silly gunzTarPerm extractEntry front-end/Images/searchSmallGray.png
+383 silly gunzTarPerm extractEntry front-end/Images/searchSmallWhite.png
+384 silly gunzTarPerm extractEntry front-end/Images/segment.png
+385 silly gunzTarPerm extractEntry front-end/Images/segmentEnd.png
+386 silly gunzTarPerm extractEntry front-end/Images/segmentHover.png
+387 silly gunzTarPerm extractEntry front-end/Images/segmentHoverEnd.png
+388 silly gunzTarPerm extractEntry front-end/Images/segmentSelected.png
+389 silly gunzTarPerm extractEntry front-end/Images/segmentSelectedEnd.png
+390 silly gunzTarPerm extractEntry front-end/Images/sessionStorage.png
+391 silly gunzTarPerm extractEntry front-end/Images/spinner.gif
+392 silly gunzTarPerm extractEntry front-end/Images/spinnerActive.gif
+393 silly gunzTarPerm extractEntry front-end/Images/spinnerActiveSelected.gif
+394 silly gunzTarPerm extractEntry front-end/Images/spinnerInactive.gif
+395 silly gunzTarPerm extractEntry front-end/Images/spinnerInactiveSelected.gif
+396 silly gunzTarPerm extractEntry front-end/Images/splitviewDimple.png
+397 silly gunzTarPerm extractEntry front-end/Images/splitviewDividerBackground.png
+398 silly gunzTarPerm extractEntry front-end/Images/statusbarBackground.png
+399 silly gunzTarPerm extractEntry front-end/Images/statusbarBackgroundChromium.png
+400 silly gunzTarPerm extractEntry front-end/Images/statusbarBottomBackground.png
+401 silly gunzTarPerm extractEntry front-end/Images/statusbarBottomBackgroundChromium.png
+402 silly gunzTarPerm extractEntry front-end/Images/statusbarButtonGlyphs.png
+403 silly gunzTarPerm extractEntry front-end/Images/statusbarButtons.png
+404 silly gunzTarPerm extractEntry front-end/Images/statusbarButtonsChromium.png
+405 silly gunzTarPerm extractEntry front-end/Images/statusbarMenuButton.png
+406 silly gunzTarPerm extractEntry front-end/Images/statusbarMenuButtonChromium.png
+407 silly gunzTarPerm extractEntry front-end/Images/statusbarMenuButtonSelected.png
+408 silly gunzTarPerm extractEntry front-end/Images/statusbarMenuButtonSelectedChromium.png
+409 silly gunzTarPerm extractEntry front-end/Images/statusbarResizerHorizontal.png
+410 silly gunzTarPerm extractEntry front-end/Images/statusbarResizerVertical.png
+411 silly gunzTarPerm extractEntry front-end/Images/successGreenDot.png
+412 silly gunzTarPerm extractEntry front-end/Images/thumbActiveHoriz.png
+413 silly gunzTarPerm extractEntry front-end/Images/thumbActiveVert.png
+414 silly gunzTarPerm extractEntry front-end/Images/thumbHoriz.png
+415 silly gunzTarPerm extractEntry front-end/Images/thumbHoverHoriz.png
+416 silly gunzTarPerm extractEntry front-end/Images/thumbHoverVert.png
+417 silly gunzTarPerm extractEntry front-end/Images/thumbVert.png
+418 silly gunzTarPerm extractEntry front-end/Images/timelineBarBlue.png
+419 silly gunzTarPerm extractEntry front-end/Images/timelineBarGray.png
+420 silly gunzTarPerm extractEntry front-end/Images/timelineBarGreen.png
+421 silly gunzTarPerm extractEntry front-end/Images/timelineBarOrange.png
+422 silly gunzTarPerm extractEntry front-end/Images/timelineBarPurple.png
+423 silly gunzTarPerm extractEntry front-end/Images/timelineBarRed.png
+424 silly gunzTarPerm extractEntry front-end/Images/timelineBarYellow.png
+425 silly gunzTarPerm extractEntry front-end/Images/timelineCheckmarks.png
+426 silly gunzTarPerm extractEntry front-end/Images/timelineDots.png
+427 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillBlue.png
+428 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillGray.png
+429 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillGreen.png
+430 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillOrange.png
+431 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillPurple.png
+432 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillRed.png
+433 silly gunzTarPerm extractEntry front-end/Images/timelineHollowPillYellow.png
+434 silly gunzTarPerm extractEntry front-end/Images/timelineIcon.png
+435 silly gunzTarPerm extractEntry front-end/Images/timelinePillBlue.png
+436 silly gunzTarPerm extractEntry front-end/Images/timelinePillGray.png
+437 silly gunzTarPerm extractEntry front-end/Images/timelinePillGreen.png
+438 silly gunzTarPerm extractEntry front-end/Images/timelinePillOrange.png
+439 silly gunzTarPerm extractEntry front-end/Images/timelinePillPurple.png
+440 silly gunzTarPerm extractEntry front-end/Images/timelinePillRed.png
+441 silly gunzTarPerm extractEntry front-end/Images/timelinePillYellow.png
+442 silly gunzTarPerm extractEntry front-end/Images/toolbarIcons.png
+443 silly gunzTarPerm extractEntry front-end/Images/toolbarIconsSmall.png
+444 silly gunzTarPerm extractEntry front-end/Images/toolbarItemSelected.png
+445 silly gunzTarPerm extractEntry front-end/Images/trackHoriz.png
+446 silly gunzTarPerm extractEntry front-end/Images/trackVert.png
+447 silly gunzTarPerm extractEntry front-end/Images/treeDownTriangleBlack.png
+448 silly gunzTarPerm extractEntry front-end/Images/treeDownTriangleWhite.png
+449 silly gunzTarPerm extractEntry front-end/Images/treeRightTriangleBlack.png
+450 silly gunzTarPerm extractEntry front-end/Images/treeRightTriangleWhite.png
+451 silly gunzTarPerm extractEntry front-end/Images/treeUpTriangleBlack.png
+452 silly gunzTarPerm extractEntry front-end/Images/treeUpTriangleWhite.png
+453 silly gunzTarPerm extractEntry front-end/Images/undockButtonGlyph.png
+454 silly gunzTarPerm extractEntry front-end/Images/userInputIcon.png
+455 silly gunzTarPerm extractEntry front-end/Images/userInputPreviousIcon.png
+456 silly gunzTarPerm extractEntry front-end/Images/userInputResultIcon.png
+457 silly gunzTarPerm extractEntry front-end/Images/warningIcon.png
+458 silly gunzTarPerm extractEntry front-end/Images/warningMediumIcon.png
+459 silly gunzTarPerm extractEntry front-end/Images/warningOrangeDot.png
+460 silly gunzTarPerm extractEntry front-end/Images/warningsErrors.png
+461 silly gunzTarPerm extractEntry front-end/index.html
+462 silly gunzTarPerm extractEntry front-end/navigatorView.css
+463 silly gunzTarPerm extractEntry front-end/devtools.css
+464 silly gunzTarPerm extractEntry front-end/scriptsPanel.css
+465 silly gunzTarPerm extractEntry front-end/splitView.css
+466 silly gunzTarPerm extractEntry front-end/tabbedPane.css
+467 silly gunzTarPerm extractEntry front-end/textPrompt.css
+468 silly gunzTarPerm extractEntry front-end/textViewer.css
+469 silly gunzTarPerm extractEntry lib/callback.js
+470 silly gunzTarPerm extractEntry lib/client.js
+471 silly gunzTarPerm extractEntry lib/debug-server.js
+472 silly gunzTarPerm extractEntry lib/protocol.js
+473 silly gunzTarPerm extractEntry lib/session2.js
+474 silly gunzTarPerm extractEntry lib/v2w.js
+475 silly gunzTarPerm extractEntry lib/front-end/browser.js
+476 silly gunzTarPerm extractEntry lib/front-end/callframe.js
+477 silly gunzTarPerm extractEntry lib/front-end/console.js
+478 silly gunzTarPerm extractEntry lib/front-end/debugger.js
+479 silly gunzTarPerm extractEntry lib/front-end/location.js
+480 silly gunzTarPerm extractEntry lib/front-end/remote-object.js
+481 silly gunzTarPerm extractEntry lib/front-end/runtime.js
+482 silly gunzTarPerm extractEntry lib/front-end/scope.js
+483 silly gunzTarPerm extractEntry readme.md
+484 silly gunzTarPerm extractEntry test/hello.js
+485 verbose read json /Users/david/.npm/node-inspector/0.2.0beta3/package/package.json
+486 silly lockFile f168fa8a-ode-inspector-0-2-0beta3-package /Users/david/.npm/node-inspector/0.2.0beta3/package
+487 silly shasum updated bytes 40960
+488 silly shasum updated bytes 40960
+489 silly shasum updated bytes 40960
+490 silly shasum updated bytes 40960
+491 silly shasum updated bytes 40960
+492 silly shasum updated bytes 40960
+493 silly shasum updated bytes 40960
+494 silly shasum updated bytes 40960
+495 silly shasum updated bytes 40960
+496 silly shasum updated bytes 40960
+497 silly shasum updated bytes 40960
+498 silly shasum updated bytes 40960
+499 silly shasum updated bytes 40960
+500 silly shasum updated bytes 40960
+501 silly shasum updated bytes 40960
+502 silly shasum updated bytes 40960
+503 silly shasum updated bytes 26715
+504 info shasum 2adb552da7757ff3d4ec549f5570799355952d20
+504 info shasum /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz
+505 verbose from cache /Users/david/.npm/node-inspector/0.2.0beta3/package/package.json
+506 verbose chmod /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz 644
+507 verbose chown /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz [ 501, 20 ]
+508 silly lockFile 7b628b3a-or-node-inspector-0-2-0beta3-tgz https://registry.npmjs.org/node-inspector/-/node-inspector-0.2.0beta3.tgz
+509 silly lockFile 4109c2e9-node-inspector-0-2-0beta3 node-inspector@0.2.0beta3
+510 silly lockFile e68b88da-node-inspector node-inspector@
+511 silly resolved [ { name: 'node-inspector',
+511 silly resolved     version: '0.2.0beta3',
+511 silly resolved     description: 'Web Inspector based nodeJS debugger',
+511 silly resolved     homepage: 'http://github.com/dannycoates/node-inspector',
+511 silly resolved     author: { name: 'Danny Coates', email: 'dannycoates@gmail.com' },
+511 silly resolved     keywords: [ 'debug', 'debugger', 'inspector', 'profiler' ],
+511 silly resolved     repository:
+511 silly resolved      { type: 'git',
+511 silly resolved        url: 'http://github.com/dannycoates/node-inspector.git' },
+511 silly resolved     engines: { node: '>=0.6.0' },
+511 silly resolved     bin: { 'node-inspector': './bin/inspector.js' },
+511 silly resolved     dependencies: { 'socket.io': '~0.9', connect: '~1.8.5', async: '~0.1' },
+511 silly resolved     preferGlobal: true,
+511 silly resolved     readme: 'Node Inspector is a debugger interface for nodeJS using the WebKit Web Inspector.\n\n## Getting Started\n\n### Requirements\n\n* [nodeJS](http://github.com/ry/node)\n  - versions: 0.3.0 or later\n* [npm](http://github.com/isaacs/npm)\n* A WebKit based browser: Chrome, Safari, etc.\n\n* Optional [v8-profiler](http://github.com/dannycoates/v8-profiler) to use the profiles panel\n\n### Install\n\n* With [npm](http://github.com/isaacs/npm)\n\n        $ npm install -g node-inspector\n\n### Enable debug mode\n\nTo use node-inspector, enable debugging on the node you wish to debug.\nYou can either start node with a debug flag like:\n\n    $ node --debug your/node/program.js\n\nor, to pause your script on the first line:\n\n    $ node --debug-brk your/short/node/script.js\n\nOr you can enable debugging on a node that is already running by sending\nit a signal:\n\n1. Get the PID of the node process using your favorite method. `pgrep` or `ps -ef` are good\n\n\t\t$ pgrep -l node\n\t\t2345 node your/node/server.js\n\n2. Send it the USR1 signal\n\n\t\t$ kill -s USR1 2345\n\nGreat! Now you are ready to attach node-inspector\n\n### Debugging\n\n1. start the inspector. I usually put it in the background\n\n\t\t$ node-inspector &\n\n2. open http://127.0.0.1:8080/debug?port=5858 in your favorite WebKit based browser\n\n3. you should now see the javascript source from node. If you don\'t, click the scripts tab.\n\n4. select a script and set some breakpoints (far left line numbers)\n\n5. then watch the [screencasts](http://www.youtube.com/view_play_list?p=A5216AC29A41EFA8)\n\nFor more information on getting started see the [wiki](http://github.com/dannycoates/node-inspector/wiki/Getting-Started---from-scratch)\n\nnode-inspector works almost exactly like the web inspector in Safari and\nChrome. Here\'s a good [overview](http://code.google.com/chrome/devtools/docs/scripts.html) of the UI\n\n## FAQ / WTF\n\n1. I don\'t see one of my script files in the file list.\n\n    > try refreshing the browser (F5 or command-r)\n\n2. My script runs too fast to attach the debugger.\n\n    > use `--debug-brk` to pause the script on the first line\n\n3. I got the ui in a weird state.\n\n    > when in doubt, refresh\n    \n4. Can I debug remotely?\n\n    > Yes. node-inspector must be running on the same machine, but your browser can be anywhere. Just make sure port 8080 is accessible\n\n## Inspector options\n\n    --web-port=[port]     port to host the inspector (default 8080)\n\n## Cool stuff\n\n* the WebKit Web Inspector debugger is a great js debugger interface, it works just as well for node\n* uses WebSockets, so no polling for breaks\n* remote debugging\n* javascript top to bottom :)\n* [edit running code](http://github.com/dannycoates/node-inspector/wiki/LiveEdit)\n\n## Known Issues\n\nThis is beta quality code, so use at your own risk:\n\n* be careful about viewing the contents of Buffer objects, each byte is displayed as an individual array element, for anything but tiny Buffers this will take too long to render\n* while not stopped at a breakpoint the console doesn\'t always behave as you might expect\n\n## Profiling\n\n**VERY EXPERIMENTAL**\nI don\'t recommend using this yet\n\nTo use the profiles panel, install the v8-profiler module:\n\n    npm install v8-profiler\n\nTo use it do something like:\n\n```javascript\nvar profiler = require(\'v8-profiler\');\n\nprofiler.startProfiling(\'startup\');\nslowStartupFoo();\nprofiler.stopProfiling(\'startup\');\n\nprofiler.takeSnapshot(\'beforeLeak\');\nleakyFoo();\nprofiler.takeSnapshot(\'afterLeak\');\n```\n\nThen view the profiling results with the profiles panel in node-inspector. You can\nalso take heap snapshots on demand from the profiles panel.\n\n## Thanks\n\nThis project respectfully uses code from and thanks the authors of:\n\n* [WebKit](http://webkit.org/building/checkout.html)\n* [node](http://github.com/ry/node)\n* [socket.io](http://github.com/LearnBoost/socket.io)\n* [node-paperboy](http://github.com/felixge/node-paperboy)\n\n\n',
+511 silly resolved     readmeFilename: 'readme.md',
+511 silly resolved     _id: 'node-inspector@0.2.0beta3',
+511 silly resolved     dist: { shasum: '2adb552da7757ff3d4ec549f5570799355952d20' },
+511 silly resolved     _from: 'node-inspector' } ]
+512 info install node-inspector@0.2.0beta3 into /usr/local/lib
+513 info installOne node-inspector@0.2.0beta3
+514 verbose from cache /Users/david/.npm/node-inspector/0.2.0beta3/package/package.json
+515 info /usr/local/lib/node_modules/node-inspector unbuild
+516 verbose read json /usr/local/lib/node_modules/node-inspector/package.json
+517 verbose tar unpack /Users/david/.npm/node-inspector/0.2.0beta3/package.tgz
+518 silly lockFile 885d0a05--lib-node-modules-node-inspector /usr/local/lib/node_modules/node-inspector
+519 verbose lock /usr/local/lib/node_modules/node-inspector /Users/david/.npm/885d0a05--lib-node-modules-node-inspector.lock
+520 silly gunzTarPerm modes [ '755', '644' ]
+521 error Error: EACCES, mkdir '/usr/local/lib/node_modules/node-inspector'
+521 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/node-inspector']
+521 error   errno: 3,
+521 error   code: 'EACCES',
+521 error   path: '/usr/local/lib/node_modules/node-inspector',
+521 error   fstream_type: 'Directory',
+521 error   fstream_path: '/usr/local/lib/node_modules/node-inspector',
+521 error   fstream_class: 'DirWriter',
+521 error   fstream_stack:
+521 error    [ 'DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)',
+521 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+521 error      'Object.oncomplete (fs.js:297:15)' ] }
+522 error Please try running this command again as root/Administrator.
+523 error System Darwin 12.2.1
+524 error command "node" "/usr/local/bin/npm" "install" "-g" "node-inspector"
+525 error cwd /Users/david/Documents/Workspace/nodejs_tutorial/blog_tutorial
+526 error node -v v0.8.15
+527 error npm -v 1.1.66
+528 error path /usr/local/lib/node_modules/node-inspector
+529 error fstream_path /usr/local/lib/node_modules/node-inspector
+530 error fstream_type Directory
+531 error fstream_class DirWriter
+532 error code EACCES
+533 error errno 3
+534 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/node-inspector'
+535 error fstream_stack DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)
+535 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+535 error fstream_stack Object.oncomplete (fs.js:297:15)
+536 verbose exit [ 3, true ]
