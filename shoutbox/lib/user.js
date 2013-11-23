@@ -11,6 +11,13 @@ function User(obj) {
   }
 }
 
+User.prototype.toJSON = function () {
+  return {
+    id: this.id,
+    name: this.name
+  }
+};
+
 User.prototype.save = function(fn) {
   if (this.id) {
     // user already exists
@@ -90,7 +97,6 @@ User.get = function(id, fn) {
 }
 
 User.authenticate = function(name, pass, fn) {
-
   // lookup user by name
   User.getByName(name, function (err, user) {
     if (err) return fn(err);

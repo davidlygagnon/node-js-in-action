@@ -1,13 +1,17 @@
 var User = require('../user');
 
 module.exports = function(req, res, next) {
-  var uid = req.session.uid;
-  if(!uid) return next();
+	if (req.remoteUser) {
+		res.locals.user = req.remoteUser;
+	}
 
-  User.get(uid, function(err, user) {
-    if (err) return next(err);
+	var uid = req.session.uid;
+	if(!uid) return next();
 
-    req.user = res.locals.user = user;
-    next();
-  });
+	User.get(uid, function(err, user) {
+		if (err) return next(err);
+
+		req.user = res.locals.user = user;
+		next();
+  	});
 };

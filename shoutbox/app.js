@@ -15,6 +15,8 @@ var express = require('express')
   , entries = require('./routes/entries')
   , validate = require('./lib/middleware/validate')
   , page = require('./lib/middleware/page')
+  , Entry = require('./lib/entry')
+  , api = require('./routes/api')
   , Entry = require('./lib/entry');
 
 var app = express();
@@ -30,6 +32,7 @@ app.use(express.methodOverride());
 app.use(express.cookieParser('your secret here'));
 app.use(express.session());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/api', api.auth);
 app.use(user);
 app.use(messages);
 app.use(app.router);
@@ -53,6 +56,11 @@ app.post('/post',
   entries.submit);
 
 app.get('/:page?', page(Entry.count, 5), entries.list); //Using route ':page?' to have / equivalent to /0
+
+// API
+app.get('/api/user/:id', api.user);
+app.post('/api/entry', entries.submit);
+app.get('/api/entries/:page?', page(Entry.count), api.entries);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
